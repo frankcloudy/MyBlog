@@ -21,7 +21,7 @@ module.exports = {
               { text: '实习篇', link: '/workplace/Learning/' }
             ]
             },
-            {text: 'myGirhub', link: 'https://www.baidu.com', target : '_blank' ,rel:'' }
+            {text: 'myGithub', link: 'https://github.com/', target : '_blank' ,rel:'' }
         ],//导航栏
         // sidebar: 'auto'
         sidebar: [
