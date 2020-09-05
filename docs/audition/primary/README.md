@@ -332,7 +332,7 @@ function throttle(fn, delay){
             timer = setTimeout(function(){
                 // 改变执行函数内部的this指向debounce执行作用域的this，并把参数传给执行函数
                 fn.apply(_this, args)
-                // 在delay后执行完fn之后清空timer，此时timer为假，throttle触发可以进入计时器
+                // 在delay后执行完fn之后清空timer，此时timer为假，throttle触发可以进入计时器 
                 timer = null
             }, delay)
         }
