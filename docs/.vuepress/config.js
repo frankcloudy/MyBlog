@@ -50,6 +50,34 @@ module.exports = {
                   }
                 ]
               },
+              {
+                title: '面试专区',   // 必要的
+                path: '/audition/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 2,    // 可选的, 默认值是 1
+                children: [
+                  {
+                    title: '初级',   // 必要的
+                    path: '/audition/primary/',
+                  },
+                  {
+                    title: '中级',   // 必要的
+                    path: '/audition/intermediate/',
+                  },
+                  {
+                    title: '高级',   // 必要的
+                    path: '/audition/senior/',
+                  },
+                  {
+                    title: 'node',   // 必要的
+                    path: '/audition/node/',
+                  },
+                  {
+                    title: '全栈',   // 必要的
+                    path: '/audition/wholeStack/',
+                  }
+                ]
+              },
         ],//侧边栏
       },
    
