@@ -37,7 +37,7 @@ module.exports = {
               {
                 title: '职场',   // 必要的
                 path: '/workplace/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                collapsable: false, // 可选的, 默认值是 true,
+                collapsable: true, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
                   {
@@ -53,8 +53,8 @@ module.exports = {
               {
                 title: '面试专区',   // 必要的
                 path: '/audition/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 2,    // 可选的, 默认值是 1
+                collapsable: true, // 可选的, 默认值是 true,
+                sidebarDepth: 3,    // 可选的, 默认值是 1
                 children: [
                   {
                     title: '初级',   // 必要的
